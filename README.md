@@ -5,8 +5,10 @@
 ### Requirements
 
 #### Task 1
-- using query parameters ONLY (no code changes required on this page) manipulate the DOM to show `Hi there, {your name}` instead of `Hi there, applicant`
+- using query parameters ONLY (no code changes required) manipulate the DOM to show `Hi there, {your name}` instead of `Hi there, applicant`
 - again, using query parameters ONLY maniuplate the DOM to show the Parallel logo instead of a waffle
+- provide the final URL with query parameters here 👇
+- Final URL = ``
 
 #### Task 2
 - using query parameters that are passed from the initial page ONLY maniuplate the DOM to change the text `Thanks for your interest in working with us at The Waffle` to `Thanks for your interest in working with us at Parallel`
