@@ -8,17 +8,21 @@ import ProductInfo from '../components/product-components/product-info'
 
 import EncodingLibrary from "../libraries/rfc4648";
 
+import '../components/styles/products.css'
+
 const SecondPage = () => (
   <Layout>
     <SEO title="Parallel Dev Frontend Assessment" />
     <h1>Product Layout</h1>
 
+    {
     <div id="productLayout">
-      {
-        // replace this with the "real" products
-        <ProductInfo product="waffle" />
-      }
+        <ProductInfo product="hip-joint-chews" />
+        <ProductInfo product="calming-relaxation-chews" />
+        <ProductInfo product="bacon-tincture" />
+        <ProductInfo product="chicken-tincture" />
     </div>
+    }
 
     <div id="cta" style={{
       textAlign: 'center'
